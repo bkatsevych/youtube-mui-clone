@@ -7,3 +7,8 @@ A simple application built mostly with the help of [Material UI](https://mui.com
 -   First time using Material UI in more depth
 -   Applied a different approach for shortening path in imports
 -   Deep dive into RapidAPI
+
+## Current bugs
+
+-   Sidebar overlay on desktop and mobile
+-   VideoCard responsiveness
