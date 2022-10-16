@@ -10,5 +10,4 @@ A simple application built mostly with the help of [Material UI](https://mui.com
 
 ## Current bugs
 
--   Sidebar overlay on desktop and mobile
 -   VideoCard responsiveness
