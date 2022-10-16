@@ -16,10 +16,10 @@ const Feed = () => {
     }, [selectedCategory]);
 
     return (
-        <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
+        <Stack sx={{ flexDirection: { xs: "column", md: "row" } }}>
             <Box
                 sx={{
-                    height: { sx: "auto", md: "92vh" },
+                    height: { xs: "auto", md: "92vh" },
                     px: { sx: 0, md: 2 },
                 }}
             >
@@ -30,7 +30,11 @@ const Feed = () => {
                 <Typography
                     className="copyright"
                     variant="body2"
-                    sx={{ mt: 1.5, color: "#fff" }}
+                    sx={{
+                        mt: 1.5,
+                        color: "#fff",
+                        display: { xs: "none", md: "block" },
+                    }}
                 >
                     Copyright 2022 YTClone
                 </Typography>

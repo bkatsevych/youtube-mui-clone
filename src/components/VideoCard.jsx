@@ -13,7 +13,7 @@ const VideoCard = ({
     return (
         <Card
             sx={{
-                width: { sx: "450px", md: "320px" },
+                width: { xs: "475px", sm: "650px", md: "320px" },
                 backgroundColor: "black",
                 "&:hover": { backgroundColor: "#1e1e1e" },
                 boxShadow: "none",
@@ -24,7 +24,7 @@ const VideoCard = ({
                 <CardMedia
                     image={snippet?.thumbnails?.high?.url}
                     alt={snippet?.title}
-                    sx={{ width: "450px", height: 180 }}
+                    sx={{ width: "100%", height: 180 }}
                 />
             </Link>
             <CardContent sx={{ height: "80px" }}>
